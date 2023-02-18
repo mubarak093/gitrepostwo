@@ -2,6 +2,53 @@
 <html>
 <head>
     <title>gitrepostwo</title>
+    <html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatibale" content="IE-edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #202020;
+        }
+        .loading-box{
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+        .loading{
+            height: 98px;
+            width: 90px;
+            border: 7px solid transparent;
+            border-top-color: #fffb00;
+            border-left: transparent;
+            border-radius: 50%;
+
+            animation: anim 0.8s infinite linear;
+        }
+
+        @keyframes anim{
+            100%{transform:rotate(360deg);}
+        }
+    </style> 
+</head>
+<body>
+
+    <div class="loading-box">
+        <div class="loading"></div>
+    </div>
+
+</body>
+</html>
+
 
 </head>
 <body>
